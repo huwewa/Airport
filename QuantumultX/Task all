@@ -504,3 +504,10 @@
 
 # 电信余量查询
 10 12 25,1 * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.js, tag=电信余额提醒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png
+
+# 斗鱼鱼吧签到
+0 0 0,1 * * https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js, tag=斗鱼鱼吧签到
+
+#哔哩哔哩番剧监控
+0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
+
