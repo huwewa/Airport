@@ -88,6 +88,7 @@
 1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/haidilao.png, enabled=false
 0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Domino/Domino_getSMS.js, tag=达美乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Domino.png, enabled=false
 0 7 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=电影日历, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/MovieCalendar.png, enabled=false
+0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横
 
 #songyangzz https://github.com/songyangzz/QuantumultX
 1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js, tag=LOL排行查询, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/lol.png, enabled=false
@@ -218,3 +219,9 @@
 30 20 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/WeChatLottery.js, tag=微信小程序-活动抽奖, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wechatlottery.png,enabled=false
 6 0 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/xmly_wc.js, tag=微信喜马拉雅, img-url=https://raw.githubusercontent.com/Orz-3/task/master/ximalaya.png,enabled=false
 28 9 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/tls_task.js, tag=特仑苏
+
+# 东方头条
+35 */13 * * * * https://raw.githubusercontent.com/58xinian/Surge/master/dfttss.js, enabled=false, tag=东方头条
+
+# 音乐打卡
+0 9 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, tag=音乐打卡, enabled=false
