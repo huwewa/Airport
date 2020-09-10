@@ -214,6 +214,7 @@ barrym-chen https://github.com/barrym-chen/Script
 0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, tag=陀螺打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
 0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, tag=音乐打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
 0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, tag=早起打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
+0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js,tag=玩游戏打卡, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
 
 #iisama
 7 0 * * * https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,tag=梨涡签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/liwo.png, enabled=false
@@ -231,7 +232,7 @@ barrym-chen https://github.com/barrym-chen/Script
 28 9 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/tls_task.js, tag=特仑苏
 
 # 东方头条
-35 */13 * * * * https://raw.githubusercontent.com/58xinian/Surge/master/dfttss.js, enabled=false, tag=东方头条
+35 */13 * * * * https://raw.githubusercontent.com/58xinian/Surge/master/Script/dfttss.js, enabled=false, tag=东方头条
 
 #photonmang
 #小小影视完整版签到必须执行下面格式不可修改，包括8个功能（签到，广告，分享，评论，10次观影，5次收藏，30分钟连续观影，每日22点开宝箱）
