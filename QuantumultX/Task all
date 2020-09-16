@@ -242,3 +242,8 @@ barrym-chen https://github.com/barrym-chen/Script
 0 9,22 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys_6rw.js, tag=小小影视自动签到+日常任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/xxys.png
 #小小影视连续观影30分钟的任务，分钟时间必须0-30分钟
 */10 0-30 9 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys_play.js, tag=小小影视30分钟观影, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/xxys.png
+
+#congcong0806 https://github.com/congcong0806/surge-list/tree/master
+0 8 * * * https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag= 倒数日, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/daysmatter.png, enabled=false
+0 7-23 * * * https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag= 今日时间, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/time.png, enabled=false
+
