@@ -88,7 +88,7 @@
 1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/haidilao.png, enabled=false
 0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Domino/Domino_getSMS.js, tag=达美乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Domino.png, enabled=false
 0 7 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=电影日历, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/MovieCalendar.png, enabled=false
-0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横
+0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/umetrip.png, enabled=true
 
 #songyangzz https://github.com/songyangzz/QuantumultX
 1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js, tag=LOL排行查询, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/lol.png, enabled=false
