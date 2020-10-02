@@ -252,3 +252,9 @@ barrym-chen https://github.com/barrym-chen/Script
 
 # LJJJia
 0 0 * * * https://raw.githubusercontent.com/LJJJia/script/master/iklear/iklear_checkin.js, tag=iklear_checkin, enabled=true
+
+#XidNDD https://github.com/XidNDD/2020scripts
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, tag=京东读书签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jdds.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/qczjSign.js, tag= 汽车之家极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qczj.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/yzkbSign.js, tag= 柚子快报, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/yzkb.png, enabled=false
+
