@@ -181,6 +181,8 @@
 45 3 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png, enabled=false
 0 4 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/funboat/funboat.js, tag=Funboat, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/funboat.png, enabled=false
 30 7-22 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js, tag=App价格监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/appstore.png, enabled=false
+25 4 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js, tag=GLaDOS签到
+0 5 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, tag=机场签到Cookie版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/airport.png,enabled=false
 
 #id77 https://github.com/id77/QuantumultX/tree/master
 0 1 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/thg.js, tag=太好购, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/thg.png, enabled=false
@@ -258,4 +260,13 @@ barrym-chen https://github.com/barrym-chen/Script
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, tag=京东读书签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jdds.png, enabled=false
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/qczjSign.js, tag= 汽车之家极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qczj.png, enabled=false
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/yzkbSign.js, tag= 柚子快报, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/yzkb.png, enabled=false
+
+# MeetaGit https://github.com/MeetaGit/MeetaRules/tree/master/Surge	
+0 0/5 13-23 * * * https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇	
+0 0 8,18 * * * https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/Calendar.js, tag=一言+历史上的今天	
+0 0 8-20/1 * * * https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Scripting/meweather.js, tag=meweather	
+	
+# mw418 https://github.com/mw418/QuantumultX	
+5 8 * * * https://raw.githubusercontent.com/mw418/QuantumultX/master/setu.js, tag=每日色图	cron "5 8 * * *" script-path=https://raw.githubusercontent.com/mw418/QuantumultX/master/setu.js, tag=每日色图
+
 
