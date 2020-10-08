@@ -260,6 +260,7 @@ barrym-chen https://github.com/barrym-chen/Script
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, tag=京东读书签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jdds.png, enabled=false
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/qczjSign.js, tag= 汽车之家极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qczj.png, enabled=false
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/yzkbSign.js, tag= 柚子快报, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/yzkb.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/zymkSign.js, tag= 知音漫客, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zymk.png, enabled=false
 
 # MeetaGit https://github.com/MeetaGit/MeetaRules/tree/master/Surge	
 0 0/5 13-23 * * * https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇	
