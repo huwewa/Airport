@@ -1,6 +1,6 @@
 //获取 Cookie
 const cookieName = "cookie";
-const $ = new API("cuuc", true);
+const $ = new API("996icu", true);
 const cookieVal = $request.headers["Cookie"];
 if (cookieVal) {
   $.write(cookieVal, cookieName);
