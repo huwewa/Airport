@@ -23,7 +23,7 @@ type=http-request, pattern=^https:\/\/www\.cuuc\.club\/user\/checkin, script-pat
 
  */
 
-const $ = new API("cuuc", true);
+const $ = new API("996icu", true);
 
 console.log($.cache);
 const cookie = $.read("cookie"); // 登陆 Cookie
