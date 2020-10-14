@@ -270,3 +270,7 @@ barrym-chen https://github.com/barrym-chen/Script
 	
 # mw418 https://github.com/mw418/QuantumultX	
 5 8 * * * https://raw.githubusercontent.com/mw418/QuantumultX/master/setu.js, tag=每日色图
+
+12 0 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/weibotalk.js, tag=微博超话
+30 20 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/10010.js, tag=联通流量话费提醒
+
