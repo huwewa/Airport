@@ -197,6 +197,8 @@
 0 9 * * * https://raw.githubusercontent.com/dompling/Script/master/oneSay/oneSay.js, tag=每日一言, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/calendar.png, enabled=false
 1 9 * * * https://raw.githubusercontent.com/dompling/Script/master/historyToday/index.js, tag=历史上的今天, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/historyToday.png, enabled=false
 5 0 * * * https://raw.githubusercontent.com/dompling/Script/master/cuuc/cuuc.js, tag=cuuc签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Airport.png, enabled=true
+10 0 * * * https://raw.githubusercontent.com/dompling/Script/master/ymatou/ymatou.js, tag=洋码头, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/ymatou.png, enabled=false
+1 0 * * * https://raw.githubusercontent.com/dompling/Script/master/biyao/biyao.js, tag=必要, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/biyao.png, enabled=false
 
 #wangdelu2020 https://github.com/wangdelu2020/hongliyu
 0 2,13,25,45,55 0-23 * * * https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/momosign.js, tag=陌陌极速版签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/momo.png, enabled=false
@@ -262,6 +264,11 @@ barrym-chen https://github.com/barrym-chen/Script
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/qczjSign.js, tag= 汽车之家极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qczj.png, enabled=false
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/yzkbSign.js, tag= 柚子快报, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/yzkb.png, enabled=false
 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/zymkSign.js, tag= 知音漫客, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zymk.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/hdhycSign.js, tag=海德汇一城, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/hdhyc.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/mygmcSign.js, tag=民盈国贸城, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/mygmc.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/qkylck.js, tag=趣客有礼, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qkyl.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/wsxqSign.js, tag= 微商星球, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/wsxq.png, enabled=false
+0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js, tag=追书畅读版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zscdb.png, enabled=false
 
 # MeetaGit https://github.com/MeetaGit/MeetaRules/tree/master/Surge	
 0 0/5 13-23 * * * https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇	
