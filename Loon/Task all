@@ -197,6 +197,8 @@ cron "1 9 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/m
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/oneSay/oneSay.js, tag=每日一言, enabled= false
 cron "1 9 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/historyToday/index.js, tag=历史上的今天, enabled=false
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/cuuc/cuuc.js, tag=cuuc签到
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/ymatou/ymatou.js, tag=洋码头, enabled=false
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/biyao/biyao.js, tag=必要, enabled=false
 
 #wangdelu2020 https://github.com/wangdelu2020/hongliyu
 cron "0 2,13,25,45,55 0-23 * * ?" script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/momosign.js, tag=陌陌极速版签到, enabled= false
@@ -262,6 +264,11 @@ cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scr
 cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/qczjSign.js, tag= 汽车之家极速版, enabled=false
 cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/yzkbSign.js, tag= 柚子快报, enabled=false
 cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/zymkSign.js, tag= 知音漫客, enabled=false
+cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/hdhycSign.js, tag=海德汇一城, enabled=false
+cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/mygmcSign.js, tag=民盈国贸城, enabled=false
+cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/qkylck.js, tag=趣客有礼, enabled=false
+cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/wsxqSign.js, tag= 微商星球, enabled=false
+cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js, tag=追书畅读版, enabled=false
 
 # MeetaGit https://github.com/MeetaGit/MeetaRules/tree/master/Surge	
 cron "0 0/5 13-23 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇	
