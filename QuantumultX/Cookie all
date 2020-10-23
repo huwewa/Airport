@@ -417,6 +417,8 @@ https://u.y.qq.com/cgi-bin/musicu.fcg url script-request-body https://raw.github
 ^https:\/\/api\.momosyb\.com\/(v6|v1)\/(fans|user)\/* url script-request-body https://raw.githubusercontent.com/XidNDD/2020scripts/master/wsxqSign.js
 #追书畅读版
 ^https:\/\/.+zhuishushenqi\.com\/* url script-request-body https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js
+#天天挖矿
+^https:\/\/operation-api\.jimistore\.com\/* url script-request-body https://raw.githubusercontent.com/XidNDD/2020scripts/master/ttwbxcxSign.js
 
 #blackmatrix7
 # 中国联通App每日签到与抽奖
