@@ -346,18 +346,18 @@ http-request ^https:\/\/wx\.17u\.cn\/wcsign\/sign\/GetSignInfo script-path=https
 #ziye12
 # 爱尚打卡 id ziye12
 # 微信扫码 https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, requires-body=true, timeout=10, tag=爱尚打卡
+#http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, requires-body=true, timeout=10, tag=爱尚打卡
 # 陀螺打卡id ziye12
 # 微信扫码 https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/wq\.02gk\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, requires-body=true, timeout=10, enabled=true, tag=陀螺打卡
+#http-request ^https:\/\/wq\.02gk\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, requires-body=true, timeout=10, enabled=true, tag=陀螺打卡
 #音乐打卡
-http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
+#http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
 # 早起打卡 id ziye12
 # 微信扫码 https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, requires-body=true, timeout=10, tag=早起打卡
+#http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, requires-body=true, timeout=10, tag=早起打卡
 # 玩游戏打卡 id ziye12
 # 微信扫码 https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/we7\.ivee\.top\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js, requires-body=true, timeout=10, tag=玩游戏打卡
+#http-request ^https:\/\/we7\.ivee\.top\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js, requires-body=true, timeout=10, tag=玩游戏打卡
 
 #iisams
 # 梨涡app： https://bit.ly/33BRwHW id iisams
