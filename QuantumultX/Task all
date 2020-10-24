@@ -298,5 +298,9 @@ barrym-chen https://github.com/barrym-chen/Script
 20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/youpin/youpin_checkin.js, tag=小米有品_每日签到, enabled=true
 
 #Passerby-b
-17 0 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付签到, enabled=true
+17 0 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/unipay.png, enabled=true
+
+#photonmang https://github.com/photonmang/quantumultX
+10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/tuhu.png, enabled=false
+
 
