@@ -164,6 +164,7 @@
 1 0,1-23/3 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_mohe.js, tag=热8超级魔盒, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdr8.png, enabled=false
 10 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js, tag=进店领豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true
 1 1 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js, tag=京东全民开红包, enabled=true
+2 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js, tag=京东星推官, enabled=true
 5 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true
 
 #vinewx https://ooxx.be/js/
