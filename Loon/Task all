@@ -147,25 +147,27 @@ cron "0 0 0,1 * * ?" script-path=https://raw.githubusercontent.com/lowking/Scrip
 cron "0 0 0,1 * * ?" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQPet/lkQQPet.js, tag=QQ萌宠, enabled=false
 
 #lxk0301 https://github.com/lxk0301/scripts
-cron "25,56 */2 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree.js, tag=京东摇钱树
-cron "20,51 */3 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_joy.js, tag=京东宠汪汪
-cron "15,46 */4 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_speed.js, tag=京东天天加速
-cron "10,41 7-19/6 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_fruit.js, tag=东东农场
-cron "5,36 6-18/6 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_pet.js, tag=京东萌宠
-cron "0,31 6-23/2 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_plantBean.js, tag=种豆得豆
-cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js, tag=京小超
-cron "11,21 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js, tag=京小超领蓝币
-cron "5 */1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js, tag=京东宠汪汪喂食
-cron "0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖品
+cron "1 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js, tag=京东农场
+cron "2 7-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js, tag=京东萌宠
+cron "3 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js, tag=京东种豆得豆
+cron "4 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js, tag=京东摇钱树
+cron "6 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js, tag=京东加速
+cron "7 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js, tag=京东宠汪汪
+cron "5 */1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js,tag=京东宠汪汪喂食
+cron "0 0,6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,tag=宠汪汪偷好友积分与狗粮
+cron "1 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖
 cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
-cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js, tag=取关京东店铺商品
-cron "0 0,6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮
-cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js, tag=京东818手机节,enable=false
-cron "1 0,1-23/3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_mohe.js,tag=热8超级魔盒,enabled=false
-cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js, tag=进点领豆
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,tag=京小超
+cron "11,21 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,tag=京小超领蓝币
 cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js, tag=京东全民开红包
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js,tag=摇京豆
-cron "2 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js,tag=京东星推官
+cron "0 22 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_change.js, tag=京豆变动通知
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js, tag=进店领豆
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js, tag=摇京豆
+cron "2 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js, tag=京东星推官
+cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js, tag=京东818手机节
+cron "1 0,1-23/3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_mohe.js,tag=热8超级魔盒
+cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币
 
 #vinewx https://ooxx.be/js/
 cron "0 9 * * *" script-path=https://ooxx.be/js/jegotrip.js, tag=无忧行, enabled=false
@@ -192,6 +194,7 @@ cron "0 1 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/
 cron "2 10 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js, tag=网易游戏会员签到, enabled= false
 cron "1 0 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/geekhub.js, tag=geekhub, enabled= false
 cron "10 12 25,1 * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.js, tag=电信余额提醒, enabled= false
+cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流
 
 #dompling https://github.com/dompling/Script
 cron "1 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js, tag=生日倒计时, enabled= false
@@ -221,38 +224,26 @@ cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Scr
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jdczf/jdczf.js, tag=京东成长分, enabled=false
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_sign.js, tag=同程小程序, enabled=false
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=同程小程序, enabled=false
+cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jddj/jddj.js, tag=京东到家
+cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tie/tie_sign.js, tag=京东金融提额
 
 #ziye12 https://github.com/ziye12/JavaScript
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, tag=爱尚打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, tag=陀螺打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, tag=音乐打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, tag=早起打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
-cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js,tag=玩游戏打卡, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
+cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, tag=爱尚打卡小程序, enabled=false
+cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, tag=陀螺打卡小程序, enabled=false
+cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, tag=音乐打卡小程序, enabled=false
+cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, tag=早起打卡小程序, enabled=false
+cron "0 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js,tag=玩游戏打卡, enabled=false
 
 #iisama
-cron "7 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,tag=梨涡签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/liwo.png, enabled=false
-cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=false
+cron "7 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,tag=梨涡签到领现金, enabled=false
+cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值, enabled=false
 
-# nzw9314收集
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/cron_daily.js, tag=每日一句+蚂蚁森林收能量, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/daysmatter.js, tag=倒数日, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/time.js, tag=世界时间, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/loulancheck.js, tag=楼兰小说论坛, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/cmbchina.js, tag=招行信用卡, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/360.js, tag=360扫地机, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/WeChatLottery.js, tag=微信小程序-活动抽奖, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/xmly_wc.js, tag=微信喜马拉雅, enabled=false, enabled= false
-cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/tls_task.js, tag=特仑苏, enabled= false
-
-# 东方头条
+# 58xinian
 cron "35 */13 * * * *" script-path=https://raw.githubusercontent.com/58xinian/Surge/master/Script/dfttss.js, enabled=false, tag=东方头条
 
 #photonmang
-#小小影视完整版签到必须执行下面格式不可修改，包括8个功能（签到，广告，分享，评论，10次观影，5次收藏，30分钟连续观影，每日22点开宝箱）
 cron "*/10 0-30 9,22 * * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/xxysrw.js, tag=小小影视完整版签到, enabled= false
-#小小影视6任务版本不限时间格式(9点执行6任务，22点执行开箱)
 cron "0 9,22 * * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys_6rw.js, tag=小小影视自动签到+日常任务, enabled= false
-#小小影视连续观影30分钟的任务，分钟时间必须0-30分钟
 cron "*/10 0-30 9 * * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys_play.js, tag=小小影视30分钟观影, enabled= false
 
 #congcong0806 https://github.com/congcong0806/surge-list/tree/master
@@ -272,18 +263,15 @@ cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scr
 cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/qkylck.js, tag=趣客有礼, enabled=false
 cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/wsxqSign.js, tag= 微商星球, enabled=false
 cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js, tag=追书畅读版, enabled=false
+cron "0 10 0 * * *" script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/ttwbxcxSign.js, tag=天天挖矿小程序, enabled=false
 
-# MeetaGit https://github.com/MeetaGit/MeetaRules/tree/master/Surge	
-cron "0 0/5 13-23 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇	
-cron "0 0 8,18 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/Calendar.js, tag=一言+历史上的今天	
-cron "0 0 8-20/1 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Scripting/meweather.js, tag=meweather	
-	
-# mw418 https://github.com/mw418/QuantumultX	
+# MeetaGit https://github.com/MeetaGit/MeetaRules/tree/master/Surge
+cron "0 0/5 13-23 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇
+cron "0 0 8,18 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/Calendar.js, tag=一言+历史上的今天
+cron "0 0 8-20/1 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Scripting/meweather.js, tag=meweather
+
+# mw418 https://github.com/mw418/QuantumultX
 cron "5 8 * * *" script-path=https://raw.githubusercontent.com/mw418/QuantumultX/master/setu.js, tag=每日色图
-
-cron "12 0 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/weibotalk.js, tag=微博超话
-cron "30 20 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/10010.js, tag=联通流量话费提醒
-cron "17 0 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/airsign.js, tag=Glados签到
 
 #blackmatrix7
 cron "15 0 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js,tag=联通_签到与抽奖
@@ -299,4 +287,25 @@ cron "20 0 * * *" script-path=https://raw.githubusercontent.com/blackmatrix7/ios
 
 #Passerby-b
 cron "17 0 * * *" script-path=https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付签到, enabled=true
+
+# yangtingxiao
+cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
+cron "10 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条
+
+# copy from 红鲤鱼绿鲤鱼
+cron "12 0 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/weibotalk.js, tag=微博超话
+cron "30 20 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/10010.js, tag=联通流量话费提醒
+cron "17 0 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/airsign.js, tag=Glados签到
+
+# nzw9314收集
+cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/cron_daily.js, tag=每日一句+蚂蚁森林收能量, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/daysmatter.js, tag=倒数日, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/time.js, tag=世界时间, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/loulancheck.js, tag=楼兰小说论坛, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/cmbchina.js, tag=招行信用卡, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/360.js, tag=360扫地机, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/WeChatLottery.js, tag=微信小程序-活动抽奖, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/xmly_wc.js, tag=微信喜马拉雅, enabled=false, enabled= false
+cron "0 0 8 * * *" script-path= https://raw.githubusercontent.com/mowomoo/Airport/master/Task/tls_task.js, tag=特仑苏, enabled= false
 
