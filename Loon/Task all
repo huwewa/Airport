@@ -295,6 +295,9 @@ cron "0 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Quan
 cron "20 0-20/4 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机
 cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京豆星店长
 
+# whyour
+cron "0 10 * * 1" script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js, tag=提交互助码
+
 # copy from 红鲤鱼绿鲤鱼
 cron "12 0 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/weibotalk.js, tag=微博超话
 cron "30 20 * * *" script-path=https://raw.githubusercontent.com/mowomoo/Airport/master/Task/10010.js, tag=联通流量话费提醒
