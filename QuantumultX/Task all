@@ -294,9 +294,12 @@ barrym-chen https://github.com/barrym-chen/Script
 0 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条
 20 0-20/4 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机
 5 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京豆星店长
+11 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
+11 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 
 # whyour
 0 10 * * 1 https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js, tag=提交互助码
+5 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/daymatter.js, tag=倒数日
 
 # copy from 红鲤鱼绿鲤鱼
 12 0 * * * https://raw.githubusercontent.com/mowomoo/Airport/master/Task/weibotalk.js, tag=微博超话
